@@ -8,10 +8,10 @@ import axios from 'axios';
 
 export default function App() {
 
-  const [data, setData] = useState({ status: [] });
+    const [data, setData] = useState({ status: [] });
     
-useEffect(() => {
-         
+    useEffect(() => {
+             
         console.log("enter :: componentDidMount()");
         
         console.log("Sending rest request");
@@ -48,7 +48,7 @@ useEffect(() => {
             
        };
        
-       var restEndpoint = 'http://desktop.softwareshinobi.online:8080/dwity/latest-known-event';
+       var restEndpoint = 'https://intention.softwareshinobi.digital/intention/';
     
     console.log("endpoint URL: ",restEndpoint );
 
