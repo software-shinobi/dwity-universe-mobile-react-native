@@ -22,6 +22,9 @@ export default function App() {
 
             if (request.readyState !== 4) {
             
+ setData("future calendar invite");
+
+
                 return;
             
             }
